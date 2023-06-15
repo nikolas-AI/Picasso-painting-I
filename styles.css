@@ -1,5 +1,6 @@
 body {
     background-color: rgb(184, 132, 46);
+    box-sizing: border-box;
 }
 
 #back-wall {
@@ -29,7 +30,7 @@ body {
     height: 0px;
     border-style: solid;
     border-width: 0px 120px 140px 180px;
-    border-color: transparent transparent rgb(69, 69, 197)  transparent;
+    border-color: transparent transparent rgb(255, 255, 255)  transparent;
   }
 
   #black-mask {
@@ -50,9 +51,9 @@ body {
     width: 15%;
     height: 40%;
     background-color: rgb(167, 162, 117);
-  }
+}
 
-  .black-dot {
+.black-dot {
     display: block;
     margin: auto;
     margin-top: 65%;
@@ -60,5 +61,43 @@ body {
     height: 10px;
     background-color: rgb(45, 31, 19);
     border-radius: 50%;
+}
+
+#tan-table {
+    position: absolute;
+    top: 275px;
+    left: 15;
+    z-index: 1;
+    width: 450px;
+    height: 140px;
+    background-color: #d2691e;
   }
 
+  #black-character {
+    position: absolute;
+    top: 30%;
+    left: 59%;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(45, 31, 19);
+  }
+
+  #black-hat {
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 150px 0 0 300px;
+    border-color: transparent transparent transparent rgb(45, 31, 19);
+  }
+
+  #gray-mask {
+    position: absolute;
+    top: -10px;
+    left: 70px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(167, 162, 117);
+  }
