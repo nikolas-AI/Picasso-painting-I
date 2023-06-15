@@ -101,3 +101,9 @@ body {
     height: 150px;
     background-color: rgb(167, 162, 117);
   }
+
+  #white-paper {
+    width: 400px;
+    height: 100px;
+    background-color: ghostwhite;
+  }
